@@ -1,0 +1,13 @@
+*.py[cod]
+*.sw[op]
+pip-log.txt
+*.egg-info
+dist
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
