@@ -14,8 +14,8 @@ setup(
     install_requires=[],
 
     # Metadata
-    author='Brian',
-    author_email='brian(at)packetperception.org',
+    author='',
+    author_email='opensource(at)packetperception.org',
     description='Django code snippets',
     long_description="""
     Snippets of code that are useful with Django.
@@ -23,4 +23,14 @@ setup(
     license='MIT',
     url='https://github.com/PacketPerception/django-codesnips',
     keywords='Django',
+    classifiers=[
+        'Programming Language :: Python',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Framework :: Django',
+    ],
+    install_requires=[
+            'django>=1.6',
+    ],
 )
