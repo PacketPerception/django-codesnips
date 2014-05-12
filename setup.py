@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 from codesnips import __version__
 
 setup(
-    name='codesnips',
+    name='django-codesnips',
     version=__version__,
     packages=find_packages(),
 
